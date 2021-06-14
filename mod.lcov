@@ -1,4 +1,4 @@
-SF:/home/luki/git/eibens/lgram/lookup.ts
+SF:/home/runner/work/lgram/lgram/lookup.ts
 FN:41,apply
 FNDA:4,apply
 FNF:1
@@ -15,7 +15,7 @@ DA:43,2
 LH:7
 LF:7
 end_of_record
-SF:/home/luki/git/eibens/lgram/markdown.ts
+SF:/home/runner/work/lgram/lgram/markdown.ts
 FN:4,children
 FN:8,stringify
 FN:12,em
@@ -75,7 +75,7 @@ DA:39,3
 LH:29
 LF:29
 end_of_record
-SF:/home/luki/git/eibens/lgram/pipe.ts
+SF:/home/runner/work/lgram/lgram/pipe.ts
 FN:15,apply
 FNDA:3,apply
 FNF:1
