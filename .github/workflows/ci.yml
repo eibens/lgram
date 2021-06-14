@@ -1,0 +1,30 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Deno setup
+        uses: denoland/setup-deno@v1
+
+      - name: Build
+        shell: bash
+        run: sh build.sh
+
+      - name: Commit
+        run: |
+          git add .
+          status=$(git status --porcelain)
+          git \
+          -c user.name="ci-bot" \
+          -c user.email="<>" \
+          commit -m ":package: chore: build project" || true
+          git push
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v1
+        with:
+          files: mod.lcov
