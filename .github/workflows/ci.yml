@@ -12,4 +12,4 @@ jobs:
 
       - name: Build
         shell: bash
-        run: sh build.sh
+        run: bash build.sh
