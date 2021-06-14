@@ -1,4 +1,4 @@
-# [lgram] - Markup Language for [ANSI Colors]
+# [lgram]
 
 [![deno.land mod](https://img.shields.io/badge/deno.land-lgram-lightgrey.svg?logo=deno)](https://deno.land/x/lgram)
 [![deno.land doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/lgram/mod.ts)
